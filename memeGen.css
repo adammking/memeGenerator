@@ -1,0 +1,111 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 200;
+    width: 350;
+}
+
+.newTopText{
+    position: absolute;
+    top: 8px;
+    left: 18%;
+    color: white;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.newBotText{
+    position: absolute;
+    bottom: 8px;
+    left: 18%;
+    color: white;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+    -webkit-text-stroke: 1.5px black;
+}
+
+#memelink{
+    width: 50%;
+    margin-left: 20px;
+}
+
+#topText{
+    width: 50%;
+    margin-left: 25px;
+
+}
+
+#bottomText{
+    width: 50%;
+    margin-left: 20px;
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.button {
+    display: inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+.button:hover {
+    background-color:#4095c6;
+}   
+
+@media all and (max-width:30em){
+    button{
+        display:block;
+        margin:0.2em auto;
+    }
+}    
+
+.input{
+    color: white;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-text-stroke: 1.5px black;
+
+    
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+    -webkit-text-stroke: 1.5px black;
+    
+}
+
+.intro{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: large;
+    -webkit-text-stroke: 1.5px black;
+}
